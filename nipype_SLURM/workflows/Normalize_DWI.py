@@ -24,7 +24,7 @@ from nipype.interfaces.utility import IdentityInterface
 from nipype.interfaces.io import DataGrabber, DataSink
 from nipype.interfaces.mrtrix3.utils import DWIExtract
 from nipype.interfaces.fsl.maths import MeanImage
-from ginnipi.workflows.subworkflows.spmNormalize_DWI import genSpmNormalizeDwiWF
+from nipype_SLURM.workflows.subworkflows.spmNormalize_DWI import genSpmNormalizeDwiWF
 
 
 def genNormalizeDwiWF(name='NormalizeDwi',

@@ -11,7 +11,7 @@ See Normalize_DWI.ipynb for test input data info.
 """
 
 import os.path as op
-from ginnipi.workflows.Normalize_DWI import genNormalizeDwiWF
+from nipype_SLURM.workflows.Normalize_DWI import genNormalizeDwiWF
 
 test_dir = "/data/extra/tsuchida/MRiShare/DWI_pipe/Normalize_test/"
 test_input = op.join(test_dir, "input_dir")
